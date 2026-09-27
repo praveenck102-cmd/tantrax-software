@@ -69,6 +69,13 @@ html {
   color-scheme: dark;
   font-size: 16px;
   overflow-x: hidden;
+  max-width: 100vw;
+  -webkit-text-size-adjust: 100%;
+}
+
+img, svg, video, canvas, audio, iframe, embed, object {
+  max-width: 100%;
+  height: auto;
 }
 
 body {
@@ -981,7 +988,7 @@ button, input, select, textarea {
 
 .ps-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
   gap: 1.5rem;
 }
 
@@ -1231,7 +1238,7 @@ button, input, select, textarea {
 
 .process-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
   gap: 1.5rem;
   position: relative;
 }
@@ -1293,7 +1300,7 @@ button, input, select, textarea {
 /* Why TANTRAX Section */
 .why-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
   gap: 1.75rem;
 }
 
@@ -1464,7 +1471,7 @@ button, input, select, textarea {
 /* Pricing Section */
 .pricing-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
   gap: 2rem;
   align-items: stretch;
 }
@@ -2484,24 +2491,151 @@ button, input, select, textarea {
 }
 
 @media (max-width: 640px) {
+  .container {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
   .section-wrapper {
-    padding: 4.5rem 0;
+    padding: 3.5rem 0;
   }
 
   .hero-title {
-    font-size: 2.15rem;
+    font-size: 1.95rem;
+    line-height: 1.2;
+    word-break: break-word;
   }
 
   .hero-description {
-    font-size: 1.02rem;
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+
+  /* Force all grids to single column on mobile */
+  .ps-grid,
+  .services-grid,
+  .process-grid,
+  .why-grid,
+  .showcase-grid,
+  .pricing-grid,
+  .partners-grid,
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+  }
+
+  .contact-info-col {
+    gap: 1.25rem !important;
+  }
+
+  .contact-info-card {
+    padding: 1.25rem 1rem !important;
+  }
+
+  .contact-form-card {
+    padding: 1.25rem 1rem !important;
+  }
+
+  .commitments-box {
+    padding: 1rem 0.85rem !important;
+  }
+
+  .commitment-item {
+    font-size: 0.82rem !important;
+    gap: 0.5rem !important;
+    align-items: flex-start !important;
+    word-break: break-word !important;
+    overflow-wrap: anywhere !important;
+    line-height: 1.4 !important;
+  }
+
+  .commitment-item .deliverable-check {
+    flex-shrink: 0 !important;
+    margin-top: 2px !important;
+  }
+
+  .info-item {
+    gap: 0.75rem !important;
+    margin-bottom: 1.2rem !important;
+  }
+
+  .info-icon {
+    width: 40px !important;
+    height: 40px !important;
+    flex-shrink: 0 !important;
+  }
+
+  .info-val {
+    font-size: 0.95rem !important;
+    word-break: break-all !important;
+    overflow-wrap: anywhere !important;
+    max-width: 100% !important;
+  }
+
+  .info-sub {
+    font-size: 0.8rem !important;
+    word-break: break-word !important;
   }
 
   .form-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
   }
 
   .form-group-full {
-    grid-column: span 1;
+    grid-column: span 1 !important;
+  }
+
+  .form-input, .form-select, .form-textarea {
+    padding: 0.75rem 0.85rem !important;
+    font-size: 16px !important; /* Prevents auto-zoom in iOS Safari */
+  }
+
+  .mobile-code-select-container {
+    min-width: 105px !important;
+    max-width: 115px !important;
+  }
+
+  .mobile-code-select {
+    padding: 0.7rem 0.35rem !important;
+    font-size: 0.82rem !important;
+  }
+
+  .mobile-input-field {
+    padding: 0.7rem 0.6rem !important;
+    font-size: 0.95rem !important;
+    min-width: 0 !important;
+  }
+
+  .btn {
+    white-space: normal !important;
+    text-align: center !important;
+  }
+
+  .form-footer-buttons-group {
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+    width: 100% !important;
+  }
+
+  .form-footer-buttons-group > button,
+  .form-footer-buttons-group > a {
+    width: 100% !important;
+    min-height: 48px !important;
+    padding: 0.85rem 1rem !important;
+    font-size: 0.92rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0.5rem !important;
+  }
+
+  .form-disclaimer-note {
+    font-size: 0.75rem !important;
+    word-break: break-word !important;
+    overflow-wrap: anywhere !important;
+    line-height: 1.45 !important;
+    padding: 0 4px !important;
   }
 
   .hero-stats-row {
@@ -2509,18 +2643,60 @@ button, input, select, textarea {
     gap: 1rem;
   }
 
-  .contact-form-card {
-    padding: 1.75rem 1.25rem;
-  }
-
   .footer-top-grid {
     grid-template-columns: 1fr;
+    gap: 2rem;
   }
 
   .footer-bottom-row {
     flex-direction: column;
     gap: 1rem;
     text-align: center;
+  }
+}
+
+/* Precise Baseline Adjustments for 360px - 375px Standard Mobile & 320px Minimum */
+@media (max-width: 375px) {
+  .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .contact-info-card,
+  .contact-form-card {
+    padding: 1rem 0.75rem !important;
+  }
+
+  .commitments-box {
+    padding: 0.85rem 0.65rem !important;
+  }
+
+  .info-val {
+    font-size: 0.88rem !important;
+  }
+
+  .mobile-code-select-container {
+    min-width: 95px !important;
+    max-width: 102px !important;
+  }
+
+  .mobile-code-select {
+    font-size: 0.78rem !important;
+    padding: 0.65rem 0.2rem !important;
+  }
+
+  .mobile-input-field {
+    font-size: 0.9rem !important;
+    padding: 0.65rem 0.5rem !important;
+  }
+
+  .btn {
+    padding: 0.75rem 0.9rem !important;
+    font-size: 0.88rem !important;
+  }
+
+  .logo-png {
+    max-width: 140px !important;
   }
 }
 
@@ -2945,29 +3121,48 @@ header nav a:hover {
 
 @media (max-width: 600px) {
   .hero {
-    padding-top: 130px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 40px;
     min-height: auto;
   }
   .hero h1 {
-    font-size: 42px;
-    letter-spacing: -1.5px;
+    font-size: clamp(26px, 7.5vw, 34px);
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+    word-break: break-word;
   }
   .hero p {
     font-size: 14px;
-    margin: 20px auto;
+    margin: 16px auto;
+    line-height: 1.55;
+    padding: 0 4px;
   }
   .metrics {
-    gap: 20px;
-    margin-top: 36px;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 24px;
     margin-bottom: 12px;
+    width: 100%;
+  }
+  .metric {
+    width: 100%;
+    padding: 12px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
   }
   .buttons {
     flex-direction: column;
     width: 100%;
+    gap: 10px;
   }
   .btn-main, .btn-outline {
     width: 100%;
+    min-width: 0;
+    min-height: 48px;
+    padding: 13px 20px;
+    font-size: 14px;
   }
 }
 
@@ -3513,7 +3708,11 @@ header nav a:hover {
 @media (max-width: 860px) {
   /* Extra space for bottom bar with safe-area notch support */
   body {
-    padding-bottom: calc(72px + env(safe-area-inset-bottom, 0px)) !important;
+    padding-bottom: calc(78px + env(safe-area-inset-bottom, 12px)) !important;
+  }
+
+  .site-footer {
+    padding-bottom: calc(32px + env(safe-area-inset-bottom, 12px)) !important;
   }
 
   /* Display the fixed mobile bottom bar */
@@ -3525,7 +3724,7 @@ header nav a:hover {
 
   /* Move back-to-top button higher so it doesn't overlap bottom bar */
   .back-to-top-btn {
-    bottom: calc(80px + env(safe-area-inset-bottom, 0px)) !important;
+    bottom: calc(82px + env(safe-area-inset-bottom, 12px)) !important;
     right: 14px !important;
   }
 }
@@ -4033,6 +4232,7 @@ body.emoji-intro-active {
     letter-spacing: 0.25em;
   }
 }
+
 
 
 

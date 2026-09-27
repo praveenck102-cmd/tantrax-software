@@ -909,13 +909,13 @@ function initContactForm() {
 
     // Process submission state
     const submitBtn = form.querySelector('button[type="submit"]');
-    const originalText = submitBtn ? submitBtn.innerHTML : 'Send Project Inquiry';
+    const originalText = submitBtn ? submitBtn.innerHTML : 'Send Project Enquiry';
 
     if (submitBtn) {
       submitBtn.disabled = true;
       submitBtn.innerHTML = `
         <svg class="animate-spin" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10" stroke-opacity="0.25"/><path d="M12 2a10 10 0 0 1 10 10"/></svg>
-        <span>Routing to contacttantraxtech@gmail.com...</span>
+        <span>Dispatching Enquiry...</span>
       `;
     }
 
@@ -1293,12 +1293,12 @@ function initProfileEnquiryModal() {
 
     if (!isValid) return;
 
-    const originalBtnText = submitBtn ? submitBtn.innerHTML : 'Send Enquiry to Company Mail';
+    const originalBtnText = submitBtn ? submitBtn.innerHTML : 'Send Enquiry';
     if (submitBtn) {
       submitBtn.disabled = true;
       submitBtn.innerHTML = `
         <svg class="animate-spin" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10" stroke-opacity="0.25"/><path d="M12 2a10 10 0 0 1 10 10"/></svg>
-        <span>Routing to contacttantraxtech@gmail.com...</span>
+        <span>Dispatching Enquiry...</span>
       `;
     }
 
@@ -1892,3 +1892,4 @@ function initEmojiIntro() {
     });
   }
 }
+
