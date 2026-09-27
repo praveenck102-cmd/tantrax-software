@@ -1,0 +1,7 @@
+{
+  "name": "TANTRAX",
+  "description": "TANTRAX builds modern software, custom web applications, and enterprise AI solutions. Ideas to Impact.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

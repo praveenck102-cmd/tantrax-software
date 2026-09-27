@@ -1,0 +1,382 @@
+{
+  "company": {
+    "name": "TANTRAX",
+    "tagline": "IDEAS TO IMPACT",
+    "phone": "8838178638",
+    "phoneDisplay": "+91 8838178638",
+    "email": "contacttantraxtech@gmail.com",
+    "positioning": "Modern software, web applications and AI solutions",
+    "location": "Neyveli Block 1, Cuddalore, Tamil Nadu 607801",
+    "address": {
+      "entity": "TANTRAX Pvt. Ltd.",
+      "street": "Block 1",
+      "city": "Neyveli",
+      "district": "Cuddalore",
+      "state": "Tamil Nadu",
+      "pincode": "607801",
+      "fullAddress": "Block 1, Neyveli, Cuddalore, Tamil Nadu 607801"
+    }
+  },
+  "hero": {
+    "badge": "TANTRAX • IDEAS TO IMPACT",
+    "headline": "Your Vision. Our Code. Real Impact.",
+    "subtext": "We design and develop modern web applications, business software and AI-powered solutions that solve real-world problems.",
+    "ctaPrimary": "Start a Project",
+    "ctaSecondary": "Explore Solutions"
+  },
+  "services": [
+    {
+      "title": "Custom Web Applications",
+      "description": "Scalable web applications designed around real business workflows.",
+      "icon": "globe",
+      "deliverables": [
+        "SaaS Application Development",
+        "Custom Business Portals",
+        "Responsive Single Page & SSR Systems",
+        "Enterprise Role-Based Access Control (RBAC)"
+      ]
+    },
+    {
+      "title": "Business Websites",
+      "description": "Fast, responsive and professional websites designed to convert visitors.",
+      "icon": "monitor",
+      "deliverables": [
+        "High-Converting Funnel Architecture",
+        "Core Web Vitals & Speed Optimization",
+        "Modern SEO & Semantic Markup",
+        "Brand-Centric Interactive Experiences"
+      ]
+    },
+    {
+      "title": "AI & Automation",
+      "description": "Automate repetitive processes and create intelligent business workflows.",
+      "icon": "brain",
+      "deliverables": [
+        "Enterprise LLM & Agent Pipelines",
+        "Intelligent Document Processing (IDP)",
+        "Autonomous Task Handlers",
+        "Custom Predictive Decision Engines"
+      ]
+    },
+    {
+      "title": "UI/UX Design",
+      "description": "Modern interfaces designed around usability and business goals.",
+      "icon": "palette",
+      "deliverables": [
+        "Product Wireframing & Design Systems",
+        "Interactive Clickable Prototypes",
+        "User Journey & Usability Audits",
+        "Accessible, Modern Typography & Layouts"
+      ]
+    },
+    {
+      "title": "Cloud & DevOps",
+      "description": "Reliable deployment, hosting and scalable cloud infrastructure.",
+      "icon": "cloud",
+      "deliverables": [
+        "Docker & Container Orchestration",
+        "CI/CD Pipeline Automation",
+        "Infrastructure as Code & Cloud Hardening",
+        "Automated Backup & 99.9% Uptime Monitoring"
+      ]
+    },
+    {
+      "title": "API Integration",
+      "description": "Connect payment systems, third-party platforms and business tools.",
+      "icon": "code",
+      "deliverables": [
+        "Payment Gateway & Invoice Sync",
+        "ERP, CRM & Webhook Architectures",
+        "Custom High-Throughput REST & GraphQL APIs",
+        "Bi-Directional Automated Data Pipelines"
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "problem": "Manual business operations",
+      "solution": "Digital workflow automation",
+      "category": "operations",
+      "problemDetail": "Teams losing hours to manual data entry, disconnected emails, and untracked approvals.",
+      "solutionDetail": "Autonomous workflow pipelines with real-time status tracking, instant handoffs, and zero human bottlenecks."
+    },
+    {
+      "problem": "Spreadsheet-based management",
+      "solution": "Centralized business dashboard",
+      "category": "data-ai",
+      "problemDetail": "Critical operational metrics buried across fragmented, out-of-sync Excel sheets with no audit trail.",
+      "solutionDetail": "Single-pane-of-glass live executive dashboard with role-based access, instant search, and unified analytics."
+    },
+    {
+      "problem": "Poor customer follow-up",
+      "solution": "CRM and automated notifications",
+      "category": "customer",
+      "problemDetail": "Prospects slipping through the cracks due to delayed responses and scattered communication channels.",
+      "solutionDetail": "Bespoke CRM pipeline with automated WhatsApp / email alerts, lead scoring, and instant customer correspondence."
+    },
+    {
+      "problem": "Inventory management issues",
+      "solution": "Real-time inventory system",
+      "category": "operations",
+      "problemDetail": "Stock discrepancies, unrecorded warehouse movements, and unexpected stockouts hurting fulfillment.",
+      "solutionDetail": "Live multi-location inventory ledger with low-stock warnings, barcode scanning, and auto-reorder triggers."
+    },
+    {
+      "problem": "Repetitive office work",
+      "solution": "AI-powered automation",
+      "category": "data-ai",
+      "problemDetail": "High-cost staff spending valuable hours on repetitive document parsing, receipt matching, and copy-paste tasks.",
+      "solutionDetail": "Intelligent AI worker pipelines that process, validate, and file business documents autonomously with 99%+ accuracy."
+    }
+  ],
+  "process": [
+    "Discover",
+    "Design",
+    "Develop",
+    "Test",
+    "Deploy",
+    "Support"
+  ],
+  "processDetails": [
+    {
+      "step": "01",
+      "name": "Discover",
+      "title": "Requirements & Discovery",
+      "description": "We analyze your existing workflows, identify operational bottlenecks, and map out concrete technical milestones aligned with your business goals."
+    },
+    {
+      "step": "02",
+      "name": "Design",
+      "title": "Architecture & UI/UX Design",
+      "description": "Crafting clean database schemas, secure API contracts, and high-fidelity interactive user interfaces focused on usability and conversion."
+    },
+    {
+      "step": "03",
+      "name": "Develop",
+      "title": "Agile Sprint Engineering",
+      "description": "Full-stack code development utilizing modern frameworks, clean code principles, strict typing, and continuous version control."
+    },
+    {
+      "step": "04",
+      "name": "Test",
+      "title": "QA & Security Hardening",
+      "description": "Rigorous cross-device testing, edge-case validation, OWASP security audits, and load tests to guarantee production resilience."
+    },
+    {
+      "step": "05",
+      "name": "Deploy",
+      "title": "Zero-Downtime Deployment",
+      "description": "Configuring containerized pipelines, CDN caching, SSL certificates, and live telemetry for a seamless production launch."
+    },
+    {
+      "step": "06",
+      "name": "Support",
+      "title": "Continuous SLA Support",
+      "description": "Continuous SLA-backed maintenance, server health monitoring, security patches, and evolutionary feature scaling as you grow."
+    }
+  ],
+  "technologies": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Python",
+    "PostgreSQL",
+    "MongoDB",
+    "REST API",
+    "Cloud",
+    "AI"
+  ],
+  "technologyDetails": [
+    {"name": "HTML", "category": "Frontend", "desc": "Semantic, accessible structural markup"},
+    {"name": "CSS", "category": "Styling", "desc": "Modern CSS & responsive design systems"},
+    {"name": "JavaScript", "category": "Core Language", "desc": "Modern ESNext asynchronous runtime"},
+    {"name": "React", "category": "Frontend Framework", "desc": "Dynamic, component-driven reactive user interfaces"},
+    {"name": "Node.js", "category": "Backend Runtime", "desc": "High-throughput asynchronous server microservices"},
+    {"name": "Python", "category": "Backend & AI", "desc": "Data processing, automations & ML services"},
+    {"name": "PostgreSQL", "category": "Relational Database", "desc": "ACID-compliant relational data integrity"},
+    {"name": "MongoDB", "category": "NoSQL Database", "desc": "Flexible document storage & high-velocity schemas"},
+    {"name": "REST API", "category": "Architecture", "desc": "Standardized, secure microservice communications"},
+    {"name": "Cloud", "category": "DevOps & Hosting", "desc": "Containerized infrastructure, CI/CD & cloud scaling"},
+    {"name": "AI", "category": "Intelligence", "desc": "Enterprise LLMs, embeddings & autonomous workflows"}
+  ],
+  "whyTantrax": [
+    {
+      "id": "client-focused",
+      "title": "Client-Focused Development",
+      "description": "We align every technical decision directly with your revenue and operational milestones. We build products designed to solve actual commercial pain points, not tech for tech's sake."
+    },
+    {
+      "id": "transparent-communication",
+      "title": "Transparent Communication",
+      "description": "Direct engineering access, weekly milestone demonstrations, clear sprint backlogs, and total visibility without technical obfuscation."
+    },
+    {
+      "id": "scalable-architecture",
+      "title": "Scalable Architecture",
+      "description": "Built from day one to handle exponential traffic surges, horizontal database scaling, and clean decoupling to avoid costly future rewrites."
+    },
+    {
+      "id": "security-first",
+      "title": "Security-First Development",
+      "description": "Rigorous data encryption in transit and at rest, OWASP compliance, zero-trust permissions, and strict audit logs embedded across all endpoints."
+    },
+    {
+      "id": "responsive-support",
+      "title": "Responsive Support",
+      "description": "Rapid turnaround time with dedicated engineer support, direct escalation paths, and rapid incident mitigation when mission-critical systems demand it."
+    },
+    {
+      "id": "modern-technology",
+      "title": "Modern Technology",
+      "description": "A battle-tested modern stack: TypeScript, React, Node.js, Python, cloud microservices, and AI models selected for speed, stability, and longevity."
+    }
+  ],
+  "projects": [
+    {
+      "id": "nexus-erp",
+      "title": "Nexus Enterprise Operations Hub",
+      "category": "Enterprise Resource Planning",
+      "tag": "Production Solution",
+      "description": "A unified web platform replacing 14 disjointed legacy tools. Consolidates procurement, employee workflow routing, and live inventory across 6 distribution centers.",
+      "stats": [
+        {"label": "Data Latency", "value": "< 80ms"},
+        {"label": "Concurrent Users", "value": "10,000+"},
+        {"label": "Manual Time Cut", "value": "65%"}
+      ],
+      "tags": ["React", "Node.js", "PostgreSQL", "Docker", "WebSockets"]
+    },
+    {
+      "id": "flow-crm",
+      "title": "FlowScale B2B Pipeline & CRM",
+      "category": "Customer Relationship Management",
+      "tag": "Production Solution",
+      "description": "High-velocity sales pipeline suite featuring automated meeting synchronization, deal stage risk scoring, and instant customer correspondence logs.",
+      "stats": [
+        {"label": "Follow-up Velocity", "value": "3x Faster"},
+        {"label": "Pipeline Visibility", "value": "100%"},
+        {"label": "API Sync Speed", "value": "Real-time"}
+      ],
+      "tags": ["TypeScript", "Python", "MongoDB", "REST APIs", "Tailwind"]
+    },
+    {
+      "id": "medsync-booking",
+      "title": "MedSync Clinical Booking Engine",
+      "category": "Healthcare & Appointment Portal",
+      "tag": "Production Solution",
+      "description": "Zero-collision scheduling architecture for multi-specialty clinics with automated calendar synchronization and real-time patient check-in.",
+      "stats": [
+        {"label": "No-Show Drop", "value": "42%"},
+        {"label": "Scheduling Collision", "value": "0.0%"},
+        {"label": "Patient Rating", "value": "4.9 / 5"}
+      ],
+      "tags": ["React", "Node.js", "PostgreSQL", "Cloud", "SMS Gateway"]
+    },
+    {
+      "id": "cogni-ai",
+      "title": "CogniExtract Document AI Engine",
+      "category": "AI & Process Automation",
+      "tag": "Production Solution",
+      "description": "Autonomous invoice and contract processing engine utilizing vision transformers and LLMs to extract, validate, and reconcile financial data directly into ERP.",
+      "stats": [
+        {"label": "Extraction Accuracy", "value": "99.4%"},
+        {"label": "Processing Speed", "value": "1.2s / doc"},
+        {"label": "Audit Compliance", "value": "100%"}
+      ],
+      "tags": ["Python", "AI / LLMs", "FastAPI", "Vector Search", "Cloud"]
+    }
+  ],
+  "pricing": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "badge": "For Emerging Businesses",
+      "startingPrice": "Starting from ₹12,000",
+      "altPrice": "$149 (Indicative)",
+      "period": "one-time project",
+      "popular": false,
+      "description": "Ideal for startups and growing businesses needing a professional, fast, and responsive digital presence or MVP.",
+      "features": [
+        "Custom responsive web application or business website",
+        "Modern mobile-first design & cross-browser testing",
+        "Core SEO metadata & performance optimization",
+        "Contact form with email / direct WhatsApp alerts",
+        "30 days post-launch warranty support",
+        "Full source code ownership"
+      ],
+      "cta": "Get Started",
+      "note": "Prices are indicative and customized based on your exact scope."
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "badge": "Most Popular",
+      "startingPrice": "Starting from ₹20,000",
+      "altPrice": "$249 (Indicative)",
+      "period": "tailored build",
+      "popular": true,
+      "description": "Engineered for scaling businesses requiring custom database backends, user authentication, and workflow automation.",
+      "features": [
+        "Full-stack custom web application (React & Node.js)",
+        "Secure user authentication & role management",
+        "Relational database design (PostgreSQL / MongoDB)",
+        "Automated business workflow & notification hooks",
+        "Third-party API & payment gateway integration",
+        "Centralized dashboard for live data management",
+        "60 days dedicated post-launch support",
+        "Full CI/CD cloud deployment setup"
+      ],
+      "cta": "Build Business Solution",
+      "note": "Prices are indicative and customized based on your exact scope."
+    },
+    {
+      "id": "enterprise",
+      "name": "Custom Enterprise",
+      "badge": "Enterprise Grade",
+      "startingPrice": "Starting from ₹25,000",
+      "altPrice": "$299+ (Custom Scope)",
+      "period": "turnkey enterprise",
+      "popular": false,
+      "description": "For organizations requiring mission-critical architecture, custom AI models, microservices, and dedicated SLA support.",
+      "features": [
+        "Custom high-concurrency microservices or platform",
+        "Enterprise AI, LLM workflow & intelligent automation",
+        "Multi-branch role-based permissions & audit trails",
+        "Advanced data analytics & custom telemetry dashboards",
+        "Zero-trust security compliance & penetration hardening",
+        "Dedicated project lead & continuous sprint releases",
+        "Priority 24/7 SLA maintenance & incident response",
+        "Custom infrastructure architecture & disaster recovery"
+      ],
+      "cta": "Request Enterprise Proposal",
+      "note": "Prices are indicative and customized based on your exact scope."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do I own 100% of the code and intellectual property?",
+      "answer": "Yes. Upon project completion and final milestone sign-off, full intellectual property, source code repositories, databases, and assets are transferred entirely to your organization with zero vendor lock-in."
+    },
+    {
+      "question": "How do you provide estimates and scope out projects?",
+      "answer": "We conduct an initial discovery session to understand your operational requirements and milestones. We then provide a clear, transparent statement of work (SOW) outlining deliverables, architecture, timelines, and milestone-based indicative pricing."
+    },
+    {
+      "question": "Can TANTRAX modernize our existing legacy software?",
+      "answer": "Absolutely. We specialize in refactoring legacy codebases, migrating fragile spreadsheets into modern centralized dashboards, and adding AI/automation layers without disrupting your existing day-to-day operations."
+    },
+    {
+      "question": "How long does a typical software project take to deliver?",
+      "answer": "Targeted starter applications and websites typically deploy in 2 to 4 weeks. Comprehensive business applications generally take 6 to 10 weeks, delivered in two-week agile sprint increments with live demo previews."
+    },
+    {
+      "question": "What kind of ongoing maintenance and support do you provide?",
+      "answer": "Every project includes post-launch warranty support. Additionally, we offer ongoing SLA maintenance packages covering 24/7 uptime monitoring, security patching, database optimization, and ongoing feature rollouts."
+    },
+    {
+      "question": "How do we get started?",
+      "answer": "Submit our contact form below or call us directly at 8838178638. We will schedule a free architectural consultation within 24 hours to explore your requirements."
+    }
+  ]
+}
